@@ -151,9 +151,7 @@ if(alish <= 11.000 + prompt){
 // }
 
 
-
 "0, ‘’, null, undefined, -0, 0n, false, NaN" == " <= false qiymatla"
-
 
 
 
@@ -501,7 +499,6 @@ if(alish <= 11.000 + prompt){
 //     return value > 18;
 // }
 
-  
 
 // const info = {
 //     [Symbol('a')]: 'b'
@@ -511,5 +508,160 @@ if(alish <= 11.000 + prompt){
 // console.log(Object.keys(info));
 
 
+// const fruits = [];
+// fruits.push("banana", "apple", "peach");
+// console.log(fruits.length); 
+// fruits[5] = "mango";
+// console.log(fruits[5]); 
+// console.log(Object.keys(fruits)); 
+// console.log(fruits.length); 
+
+// let a = 111; 
+// a **= 2;
+// console.log(typeof(a));
+
+
+// let x = 5;
+// let y = 3;
+// // addition
+// console.log('x + y = ', x + y); // 8
+// // subtraction
+// console.log('x - y = ', x - y); // 2
+// // multiplication
+// console.log('x * y = ', x * y); // 15
+// // division
+// console.log('x / y = ', x / y); // 1.6666666666666667
+// //!!! nolga bo'lish mumkin emas
+// // remainder
+// console.log('x % y = ', x % y); // 2
+// // increment
+// console.log('++x = ', ++x); // x is now 6
+// console.log('x++ = ', x++); // prints 6 and then increased to 7
+// console.log('x = ', x); // 7
+// // decrement
+// console.log('--x = ', --x); // x is now 6
+// console.log('x-- = ', x--); // prints 6 and then decreased to 5
+// console.log('x = ', x); // 5
+// //exponentiation
+// console.log('x ** y =', x ** y);
+
+
+
+// const a = 3, b = 2;
+// console.log(a > b); // true
+
+
+// console.log('hello ' + 'world');
+// let a = 'JavaScript';
+// a += ' tutorial';
+// console.log(a);
+
+
+
+
+// const a = 3, b = 2;
+// console.log(a > b);
+
+
+
+
+
+// console.log(Math.floor(5.95));
+// // Expected output: 5
+
+// console.log(Math.floor(5.05));
+// // Expected output: 5
+
+// console.log(Math.floor(5));
+// // Expected output: 5
+
+// console.log(Math.floor(-5.05));
+// // Expected output: -6 
+
+
+
+// function getRandomInt(max) {
+//     return Math.floor(Math.random() * max);
+//   }
+
+//   console.log(getRandomInt(3));
+//   // Expected output: 0, 1 or 2
+
+//   console.log(getRandomInt(1));
+//   // Expected output: 0
+
+//   console.log(Math.random());
+//   // Expected output: a number from 0 to <1
+
+
+
+// let myNum;
+// myNum = Math.round(6.5);
+// console.log(myNum); /* Math.round */
+
+
+
+// let num = 23;
+
+// num += 20;
+// num -= 10;
+// num %= 2;
+// console.log(num);
+
+
+
+// let a = {
+//     name: 'd',
+//     firstName: 'Akhmedov',
+//     class: {
+//         age: 14
+//     }
+// };
+// console.log(a);
+
+
+
+// console.log(typeof NaN);
+
+
+
+// let num = 12;
+// num %= 5;
+// console.log(num);
+
+
+
+// let sign = prompt("What's your profession?");
+// if (sign == "student") {
+// alert("Wow! I'm a Student too!");
+// }
+// // there are many ways to use the prompt feature
+// sign = window.prompt(); // open the blank prompt window
+// sign = prompt(); // open the blank prompt window
+// sign = window.prompt('Are you feeling lucky'); // open the window with Text "Are you feeling lucky"
+// sign = window.prompt('Are you feeling lucky', 'sure'); // open the window with Text "Are you feeling lucky" and default value "sure"
+
+
+
+
+// let result;
+// result = parseInt('20.01');
+// console.log(result); 
+
+
+// let studentsData = [['Jack', 24], ['Sara', 23],];
+// studentsData.push(['Peter', 24]);
+// console.log(studentsData);
+
+// let arr = [{ id: 1, name: 'jack' },
+//  { id: 2, name: 'john' },
+//  { id: 3, name: 'peter' },]
+// arr.filter((item) => item.name !== 2)
+// console.log(arr);
+
+// let str = 'Abduqodir';
+// for(let i = 0; i < str.length; i++ ){
+//    console.log(i);
+// }
 
 
